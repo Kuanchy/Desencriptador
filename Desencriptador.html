@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.">
+        <meta charset='utf-8'>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;1,100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="DesencriptadorCSS.css">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link rel="shortcut icon" href="Imagenes/estrella.png">
+        <title>Desencriptador</title>
+    </head>
+    <body>
+        <div id="main">
+            <br>
+            <header>
+                <a href=""><h1 id="tituloPrincipal" > Ðesençriptådor </h1></a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ " target="_blank" id="miNombre"><p id="miNombre">by Bauti</a>
+            </header>
+                <textarea id ="entrada" name="texto" rows="20" cols="80" placeholder="Escriba el mensaje encriptado..."></textarea>
+                <br>
+                <button id = "boton1" class="boton1" onclick= "if(document.getElementById('entrada').value!='') 
+                {document.getElementById('entrada').value=mostrar_inputs(); cambiar_fondo(); document.getElementById('tituloPrincipal').textContent='Desencriptador'}"> Listo
+                </button>
+                <br>
+        </div> 
+        <a href="#" id="botonGaleria" class="botonGaleria" > Abrir </a>  
+        <section id="seccionToggle">
+            <h2>Galería</h2>
+            <div id="contenedorGaleria">
+                <div class="itemGaleria">
+                    <img src="Imagenes/IMG-20211011-WA0003.jpg" alt="" class="imagenGaleria">
+                    <div class="capa"><p>11/10/2021</p></div>
+                </div>
+                <div class="itemGaleria">
+                    <img src="Imagenes/IMG-20211011-WA0004.jpg" alt="" class="imagenGaleria">
+                    <div class="capa"><p>11/10/2021</p></div>
+                </div>
+                <div class="itemGaleria">
+                    <img src="Imagenes/IMG-20211011-WA0006.jpg" alt="" class="imagenGaleria">
+                    <div class="capa"><p>11/10/2021</p></div>
+                </div>
+                <div class="itemGaleria">
+                    <img src="Imagenes/IMG-20211117-WA0007.jpg" alt="" class="imagenGaleria">
+                    <div class="capa"><p>17/11/2021</p></div>
+                </div>
+                <div class="itemGaleria">
+                    <img src="Imagenes/IMG-20211221-WA0007.jpg" alt="" class="imagenGaleria">
+                    <div class="capa"><p>21/12/2021</p></div>
+                </div>
+                <div class="itemGaleria">
+                    <img src="Imagenes/IMG-20211221-WA0008.jpg" alt="" class="imagenGaleria">
+                    <div class="capa"><p>21/12/2021</p></div>
+                </div>
+                <div class="itemGaleria">
+                    <img src="Imagenes/IMG-20211208-WA0018.jpg" alt="" class="imagenGaleria">
+                    <div class="capa"><p>22/09/2021</p></div>
+                </div>
+                <div class="itemGaleria">
+                    <img src="Imagenes/IMG-20211117-WA0005.jpg" alt="" class="imagenGaleria">
+                    <div class="capa"><p>17/11/2021</p></div>
+                </div>
+                <div class="itemGaleria">
+                    <img src="Imagenes/IMG-20211011-WA0005.jpg" alt="" class="imagenGaleria">
+                    <div class="capa"><p>11/10/2021</p></div>
+                </div>
+                <div class="itemGaleria">
+                    <img src="Imagenes/IMG-20211011-WA0002.jpg" alt="" class="imagenGaleria">
+                    <div class="capa"><p>11/10/2021</p></div>
+                </div>
+                <div class="itemGaleria">
+                    <img src="Imagenes/IMG-20211028-WA0004.jpg" alt="" class="imagenGaleria">
+                    <div class="capa"><p>28/10/2021</p></div>
+                </div>
+                <div class="itemGaleria">
+                    <img src="Imagenes/IMG-20211221-WA0010.jpg" alt="" class="imagenGaleria">
+                    <div class="capa"><p>21/12/2021</p></div>
+                </div>
+                <div class="itemGaleria">
+                    <img src="Imagenes/IMG_20211221_160523_565.jpg" alt="" class="imagenGaleria">
+                    <div class="capa"><p>21/12/2021</p></div>
+                </div>
+                <div class="itemGaleria">
+                    <img src="Imagenes/IMG_20211221_160914_137.jpg" alt="" class="imagenGaleria">
+                    <div class="capa"><p>21/12/2021</p></div>
+                </div>
+                <div class="itemGaleria">
+                    <img src="Imagenes/IMG_20211221_152514_712.jpg" alt="" class="imagenGaleria">
+                    <div class="capa"><p>21/12/2021</p></div>
+                </div>
+                <div class="itemGaleria">
+                    <img src="Imagenes/IMG_20211221_160830_973.jpg" alt="" class="imagenGaleria">
+                    <div class="capa"><p>21/12/2021</p></div>
+                </div>
+                <div class="itemGaleria">
+                    <img src="Imagenes/20220117_162210.jpg" alt="" class="imagenGaleria">
+                    <div class="capa"><p>17/01/2022</p></div>
+                </div>
+                <!-- Pagina dos de Galería -->
+                <div class="itemGaleria paginaDos">
+                    <img src="Imagenes/IMG_20220117_174730_759.webp" alt="" class="imagenGaleria">
+                    <div class="capa"><p>17/01/2022</p></div>
+                </div>
+                <div class="itemGaleria paginaDos">
+                    <img src="Imagenes/IMG_20220117_174816_248.webp" alt="" class="imagenGaleria">
+                    <div class="capa"><p>17/01/2022</p></div>
+                </div>
+            </div>
+            <a href="#" id="siguiente" onclick="siguiente_galeria()">Siguiente ></a>
+        </section>  
+        <script src="DesencriptadorJS.js"></script>
+    </body>
+</html>
