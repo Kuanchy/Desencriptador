@@ -1,2 +1,2 @@
-#  :tw-1f320: Regalo Pilu :tw-1f320:
+# Regalo Pilu 
 ###### *Desencritptador de mensaje y Galería de fotos*
