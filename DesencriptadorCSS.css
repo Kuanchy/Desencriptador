@@ -227,7 +227,7 @@ body.simp #miNombre{
     font-size: calc(1vw + 2vh);
 }
 body.simp h1{
-    font-size: 60px;
+    font-size: 60px; 
     letter-spacing: 0.7vw;
 }
 body.simp h2{

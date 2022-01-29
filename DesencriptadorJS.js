@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function(){ 
 	var estado = false;
 
 	$('#botonGaleria').on('click',function(){
