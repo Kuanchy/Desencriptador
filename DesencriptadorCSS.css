@@ -212,7 +212,7 @@ body.simp #main{
     background: linear-gradient(rgba(0, 0, 0, 0.650),rgba(0, 0, 0, 0.650)), url(Imagenes/fondo\ dark\ academia\ 1.jpg);
     background-size: cover;   
     background-repeat: no-repeat;
-    height: calc(100vh - 55px);
+    height: calc(100vh - 3.5em);
     font-family: 'Tangerine', cursive;
 }
 body.simp #botonGaleria{
