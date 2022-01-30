@@ -16,7 +16,7 @@ $(document).ready(function(){
 			estado = true;
 		}
 	});
-});
+}); 
 
 function cambiar_fondo (){
     let boton = document.getElementById('boton1')
