@@ -39,7 +39,7 @@ body{
     background-color: black;
     font-family: inherit;
     text-align: left;
-    color: #03a013;
+    color: #03a013de;
     font-size: 20px;
     border: 2px solid white;
     padding: 14px;
@@ -200,8 +200,9 @@ body.simp{
     font-family: 'Tangerine', cursive;
 }
 body.simp #entrada{
-    font-family: 'OCRAExtendedRegular', 'Courier New';
+    font-family: initial;
     background-color: #d6b675a8;
+    font-weight: 500;
     color: #36220b;
     box-shadow: #36220b.2px 0.2px 10px;
 }
