@@ -28,7 +28,7 @@ function cambiar_fondo (){
 }
 function mostrar_inputs ()
 {
-    let listSymbols = ['!','˫', 'ʢ', '˧', '˩', '﴿', '˥', '₪', 'ʯ', 'ʭ', 'ɻ', 'ѻ', 'Ӿ', 'Ҩ', 'Ԅ', '۝', '۶'];
+    var listSymbols = ['!','˫', 'ʢ', '˧', '˩', '﴿', '˥', '₪', 'ʯ', 'ʭ', 'ɻ', 'ѻ', 'Ӿ', 'Ҩ', 'Ԅ', '۝', '۶'];
     var parrafoEncriptado = document.getElementById("entrada").value;
     let i = 0
     let t = ""
@@ -78,5 +78,30 @@ function siguiente_galeria (){
             }  
             document.getElementById('siguiente').text = 'Siguiente >'
         }
+    }
+}
+
+function verificarChar () 
+{
+    var listSymbols = '!˫˧ʢ˩﴿˥₪ʯʭɻѻӾҨԄ۝۶';
+    var stringEntrada = String(document.getElementById("entrada").value)
+    for (i=0; i<stringEntrada.length; i++){
+        if (listSymbols.indexOf(stringEntrada.charAt(i),0)!=-1)
+        {
+            return true
+        }
+    }
+    return false
+}
+
+function botonOnClick (){
+    if(document.getElementById('entrada').value!='' && verificarChar()){
+        document.getElementById('entrada').value=mostrar_inputs()
+        cambiar_fondo()
+        document.getElementById('tituloPrincipal').textContent='Desencriptador'
+    } 
+    else{
+        document.getElementById('ventModal').style.display = 'block'
+        document.getElementById('matrix').style.filter = "blur(3.5px)"
     }
 }

@@ -15,18 +15,22 @@
     <body>
         <div id="main">
             <br>
-            <header>
-                <a href=""><h1 id="tituloPrincipal" > Ðesençriptådor </h1></a>
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ " target="_blank" id="miNombre"><p id="miNombre">by Bauti</a>
-            </header>
+            <div id="matrix">
+                <header>
+                    <a href=""><h1 id="tituloPrincipal" > Ðesençriptådor </h1></a>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ " target="_blank" id="miNombre"><p id="miNombre">by Bauti</a>
+                </header>
                 <textarea id ="entrada" name="texto" rows="20" cols="80" placeholder="Escriba el mensaje encriptado..."></textarea>
                 <br>
-                <button id = "boton1" class="boton1" onclick= "if(document.getElementById('entrada').value!='') 
-                {document.getElementById('entrada').value=mostrar_inputs(); cambiar_fondo(); document.getElementById('tituloPrincipal').textContent='Desencriptador'}"> 
+                <button id = "boton1" class="boton1" onclick= "botonOnClick()" > 
                 </button>
-                <br>
-        </div>  
-        <a href="#" id="botonGaleria" class="botonGaleria" > Abrir </a>  
+            </div>
+            <div id="ventModal" onclick= "document.getElementById('ventModal').style.display = 'none' ;document.getElementById('matrix').style.filter = 'none'">
+                <p id="msgModal1">Ingresá un mensaje valido plis</p>
+                <p id="msgModal2" >click para continuar</p>
+            </div>
+        </div>    
+        <a href="#" id="botonGaleria" class="botonGaleria" > Abrir </a>
         <section id="seccionToggle">
             <h2>Galería</h2>
             <div id="contenedorGaleria">
