@@ -48,7 +48,7 @@ header{
 }
 #msgModal2{
     width: fit-content;
-    font-size: 20px;
+    font-size: 3vh;
     cursor: pointer;
     position: absolute;
     margin-left: auto;
