@@ -1,3 +1,5 @@
+document.getElementById("entrada").readOnly = false;
+
 $(document).ready(function(){ 
 	var estado = false;
 
@@ -22,6 +24,7 @@ function cambiar_fondo (){
     let boton = document.getElementById('boton1')
     if (boton.classList=='boton1'){
         document.body.classList.toggle('simp')
+        document.getElementById("entrada").readOnly = true;
         boton.classList.toggle('boton2')
         boton.disabled = true
     }

@@ -227,11 +227,9 @@ body.simp{
 body.simp #entrada{
     font-family: initial;
     background-color: #d6b675c4;
-    pointer-events: none;
     font-weight: 500;
     color: #36220b;
     box-shadow: #36220b.2px 0.2px 10px;
-    
 }
 body.simp #boton1{
     display: none;
